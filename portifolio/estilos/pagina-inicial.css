@@ -1,0 +1,138 @@
+/*
+configurações gerais
+*/
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+    color: black;
+}
+main{
+    display: flex;
+}
+
+:root{
+    --display-chat: #f1f1f1;
+
+
+
+    --fonte-titulo: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-paragrafo: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family:var(--fonte-titulo);
+    font-size: 4vw;
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+p{
+    font-family: var(--fonte-paragrafo);
+}
+/*
+configurações do container do bate-papo.
+*/
+.bate-papo{
+    margin: 2px;
+    border: 2px solid #dedede;
+    background-color: var(--display-chat);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5px;
+    height: 80vh;
+    border-radius: 20px;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 90%;
+}
+.container{
+    display: flex;   
+    font-size: 1.8vw;
+    align-items: center;
+    border-bottom: 1px solid #dedede ;
+    border-top: 1px solid #dedede ;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2px;
+    margin: 1px;
+}
+img{
+    margin: 2px;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 50%;
+    border: 2px solid #dedede;
+    flex-grow: 1;
+}
+.mensagem{
+    flex-grow: 2;
+    padding: 5px;
+}
+.time{
+    color: gray;
+
+}
+.caixa-de-mensagem{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin: 1px;
+}
+input[type="text"]{
+   flex-grow: 2;
+   margin-right: 5px;
+   height: 3vh;
+}
+
+/*
+configurações do container das conversas.
+*/
+.painel{
+    height: 80vh;
+    width: 20vw;
+    border: 2px solid #dedede;
+    border-radius: 20px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    background-color: var(--display-chat)
+}
+.config{
+    width: 100%;
+    height: 20%;
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.conversas{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+}
+.conversas div{
+    border: 2px solid #dedede;
+    border-radius: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 10%;
+    padding: 5px;
+    font-size: 1.8vw;
+}
