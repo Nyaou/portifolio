@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <title>Pizzaria</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-box">
+            <a href="#">home</a>
+            <a href="#menu">menu</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+        </div>
+    </nav>
+    <header>
+        <div class="home">
+            <h1>Thin 
+                <br>
+                Crust Pizza
+            </h1>
+            <a href="#menu">Let me see the menu</a>
+        </div>
+        <div class="open-time">
+            open from 10am at 12pm
+        </div>
+    </header>
+    <main>
+        <div class="menu" id="menu">
+            <h1>The Menu</h1>
+            <!--Menu bar-->
+            <nav class="menu-bar">
+                <a href="javascript:void(0)" class="links" id="linkPizza"><strong>Pizza</strong></a>
+                <a href="javascript:void(0)" class="links" id="linkSalada"><strong>Salads</strong></a>
+                <a href="javascript:void(0)" class="links" id="linkIniciante"><strong>Starter</strong></a>
+            </nav>
+            <!--Meu List-->
+            <div id="menuPizza" class="menu-list">
+                <h1>
+                    <strong>Margherita</strong>
+                    <span>$12.50</span>
+                </h1>
+                <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+
+                <h1>
+                    <strong>Formaggio</strong>
+                    <span>$15.50</span>
+                </h1>
+                <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+
+                <h1>
+                    <strong>Chicken</strong>
+                    <span>$17.00</span>
+                </h1>
+                <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+
+                <h1>
+                    <strong>Pineapple'o'clock</strong>
+                    <span>$16.50</span>
+                </h1>
+                <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+
+                <h1>
+                    <strong>Meat Town<div class="hot spc">Hot!</div></strong>
+                    <span>$20.00</span>
+                </h1>
+                <p>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+
+                <h1>
+                    <strong>Parma<div class="new spc">New</div></strong>
+                    <span>$21.50</span>
+                </h1>
+                <p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+                </div>
+            <div id="menuSalada" class="menu-list"> 
+                <h1>
+                    <strong>Lasagna<div class="popular spc">Popular</div></strong>
+                    <span>$13.50</span>
+                </h1>
+                <p>Special sauce, mozzarella, parmesan, ground beef</p>
+
+                <h1>
+                    <strong>Ravioli</strong>
+                    <span>$14.50</span>
+                </h1>
+                <p>Ravioli filled with cheese</p>
+
+                <h1>
+                    <strong>Spaghetti Classica</strong>
+                    <span>$11.00</span>
+                </h1>
+                <p>Fresh tomatoes, onions, ground beef</p>
+
+                <h1>
+                    <strong>Seafood pasta</strong>
+                    <span>$25.50</span>
+                </h1>
+                <p>Salmon, shrimp, lobster, garlic</p>
+            </div>
+            <div id="menuIniciante" class="menu-list">
+                <h1>
+                    <strong>Today's Soup<div class="seasonal spc">Seasonal</div></strong>
+                    <span>$5.50</span>
+                </h1>
+                <p>Ask the waiter</p>
+
+                <h1>
+                    <strong>Bruschetta</strong>
+                    <span>$8.50</span>
+                </h1>
+                <p>Bread with pesto, tomatoes, onion, garlic</p>
+
+                <h1>
+                    <strong>Garlic bread</strong>
+                    <span>$9.50</span>
+                </h1>
+                <p>Grilled ciabatta, garlic butter, onions</p>
+
+                <h1>
+                    <strong>Tomozzarella</strong>
+                    <span>$10.50</span>
+                </h1>
+                <p>Tomatoes and mozzarella</p>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <h1>About</h1>
+            <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>The Chef? Mr. Italiano himself</p>
+            <p>We are proud of our interiors.</p>
+            <picture>
+                <source media="(min-width: 1280px )" srcset="street-g.jpg">
+                <source media="(min-width: 640px )" srcset="street-m.jpg">
+                <img src="street-p.jpg" alt="local">
+            </picture>
+            <h1>
+                <strong>Opening Hours</strong>
+            </h1>
+            <div class="open-days">
+                <div>
+                    <p>Mon & Tue CLOSED</p>
+                    <p>Wednesday 10.00 - 24.00</p>
+                    <p>Thursday 10:00 - 24:00</p>
+                </div>
+                <div>
+                    <p>Friday 10:00 - 12:00</p>
+                    <p>Saturday 10:00 - 23:00</p>
+                    <p>Sunday Closed</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <h1>Contact</h1>
+            <p>Find us at some address at some place or call us at 05050515-122330</p>
+            <p><span class="fyi">FYI!</span>
+                We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+            </p>
+            <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Name">
+                <input type="number" name="" id="" placeholder="How many People">
+                <input type="datetime-local" name="" id="" placeholder="Date and time" value="2020-02-27T15:10">
+                <input type="text" name="" id="" placeholder="Message \ Special Requirements">
+                <button type="submit">Send Menssage</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Powered by <a href="https://github.com/Nyaou" target="_blank">Jeff</a></p>
+    </footer>
+    <script src="pizza.js"></script>
+</body>
+</html>
