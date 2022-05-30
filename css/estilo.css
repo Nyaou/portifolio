@@ -1,0 +1,234 @@
+
+@font-face {
+    font-family: Montserrt;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+/*Formatações gerais*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrt;
+}
+:root{
+    --bg-body: #F2F2F2 ;
+    --bg-box: #FFFFFF;
+    --blue: #2F80ED;
+    --gray: #828282;
+}
+body{
+    background-color: var(--bg-body);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* barra de rolagem customizada */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+}
+::-webkit-scrollbar-thumb {
+    background: #2768be;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #1d4d8b;
+}
+/* configurações do container main */
+main{
+    display: flex;
+}
+/* configurações das colunas do projeto */
+.coluna-esquerda{
+    width: 30vw;
+}
+.coluna-direita{
+    width: 70vw;
+}
+/* colunas */
+.coluna-direita > section, .coluna-esquerda > section{
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+.coluna-esquerda > section{
+    background-color: var(--bg-box);
+}
+.coluna-direita > section{
+    background-color: var(--bg-body);
+}
+/* informações de contato*/
+section#informacoes-contato{
+    display: flex;
+    flex-direction: column;
+}
+section#informacoes-contato img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+section#informacoes-contato .nome{
+    font-size: 1.6em;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+section#informacoes-contato .funcao{
+    color: var(--gray);
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+section#informacoes-contato nav > a{
+    color: var(--blue);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+section#informacoes-contato nav a span{
+    margin-right: 5px;
+}
+section#informacoes-contato p{
+    width: 80%;
+    color: var(--gray);
+    margin: 10px 0;
+}
+
+/* habilidades e cursos */
+section#habilidade-cursos h2{
+    border-bottom: 1px solid var(--gray);
+    padding: 5px 0;
+}
+section#habilidade-cursos #habilidades, section#habilidade-cursos #cursos{
+    margin: 10px 0;
+    height: 25vh;
+    overflow-y: scroll;
+    padding: 5px;
+}
+section#habilidade-cursos #habilidades h3, section#habilidade-cursos #cursos h3{
+    font-weight: bold;
+    margin: 5px 0;
+    font-weight: bolder;
+    font-size: 1.4em;
+    background-color: var(--blue);
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
+section#habilidade-cursos #habilidades ul li{
+    font-weight: bold;
+    line-height: 1.5em;
+}
+section#habilidade-cursos #cursos .caixa-crusos p{
+    text-align: justify;
+    margin: 5px 0;
+}
+section#habilidade-cursos #cursos .caixa-cursos a:visited{
+    color: rgb(218, 7, 7);
+}
+section#habilidade-cursos #cursos .caixa-cursos nav{
+    margin: 5px 0;
+}
+section#habilidade-cursos #cursos .caixa-cursos nav > a{
+    display: block;
+    padding: 5px 0;
+    font-weight: bold;
+}
+/* filtros */
+section#projetos div{
+    background-color: var(--bg-box);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+section#projetos #filtro{
+    display: flex;
+}
+section#projetos #filtro > span{
+    background-color: var(--blue);
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* caixa dos projetos */
+section#projetos h2{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+section#projetos .projetos{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: var(--bg-body);
+}
+section#projetos .projetos > .caixa-projetos{
+    width: 43%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    box-shadow: -5px 4px 1px #82828275;
+}
+section#projetos .projetos > .caixa-projetos > img{
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+section#projetos .projetos > .caixa-projetos > .informacoes-projeto > h4{
+    font-weight: bold;
+    margin: 5px 0;
+    font-weight: bolder;
+    font-size: 1.4em;
+    background-color: var(--blue);
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
+section#projetos .projetos > .caixa-projetos > .informacoes-projeto > .tags{
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+section#projetos .projetos > .caixa-projetos > .informacoes-projeto > .tags > span{
+    margin-right: 5px;
+    text-transform: capitalize;
+}
+section#projetos .projetos > .caixa-projetos > .informacoes-projeto > .tags > span::before{
+    content: "#";
+}
+section#projetos .projetos > .caixa-projetos > .informacoes-projeto > p{
+    text-align: justify;
+    color: var(--gray);
+}
+section#projetos .projetos > .caixa-projetos > .informacoes-projeto > nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section#projetos .projetos > .caixa-projetos > .informacoes-projeto > nav > a{
+    padding: 10px;
+    margin: 10px 15px 0 0;
+    border-radius: 10px;
+    background-color: var(--blue);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+section#projetos .projetos > .caixa-projetos > .informacoes-projeto > nav > a:hover{
+    color:var(--blue);
+    background-color: white;
+    border: 1px solid var(--blue);
+}
+/* rodapé */
+footer{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
