@@ -1,3 +1,3 @@
 # portifolio
 
-em desenvolvimento: https://nyaou.github.io/portifolio/pagina-inicial.html
+em desenvolvimento: https://nyaou.github.io/portifolio/index.html
