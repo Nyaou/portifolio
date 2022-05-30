@@ -7,8 +7,8 @@ const projetos = [
         tags: ['html','css','responsive','devChallenges'],
         texto: 'Neste projeto, trabalho com HTML e CSS para criar uma página responsiva. O design é de devchallenge.io.',
         links: {
-            "demo": 'x',
-            "code": 'y'
+            "demo": 'https://nyaou.github.io/devchallenger/404-not-found-master/',
+            "code": 'https://github.com/Nyaou/devchallenger/tree/main/404-not-found-master'
         }
     },
     {
@@ -19,8 +19,8 @@ const projetos = [
         tags: ['html','css','responsive','devChallenges','javascript'],
         texto: 'Neste projeto, trabalho com HTML e CSS para criar uma página responsiva. O design é de devchallenge.io.',
         links: {
-            "demo": 'x',
-            "code": 'y'
+            "demo": 'https://nyaou.github.io//devchallenger/checkout-page-master',
+            "code": 'https://github.com/Nyaou/devchallenger/tree/main/checkout-page-master'
         }
     },
     {
@@ -67,8 +67,8 @@ const projetos = [
         tags: ['html','css','devchallenges','responsive'],
         texto: 'Neste projeto, trabalho com HTML e CSS para criar uma página responsiva. O design é de devchallenge.io.',
         links: {
-            "demo": 'x',
-            "code": 'y'
+            "demo": 'https://nyaou.github.io/devchallenger/interior-consultant-master',
+            "code": 'https://github.com/Nyaou/devchallenger/tree/main/interior-consultant-master'
         }
     }
     
@@ -133,10 +133,12 @@ function conteudoDinamico(array) {
 
         var linkDemo = document.createElement('a')
         linkDemo.href = `${element.links['demo']}`
+        linkDemo.target = '_blank'
         linkDemo.textContent = 'Demo'
 
         var linkCode = document.createElement('a')
         linkCode.href = `${element.links['code']}`
+        linkCode.target = '_blank'
         linkCode.textContent = 'Code'
 
         caixaLinks.appendChild(linkDemo)
