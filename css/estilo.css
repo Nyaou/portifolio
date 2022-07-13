@@ -1,234 +1,180 @@
-
-@font-face {
-    font-family: Montserrt;
-    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
-}
-/*Formatações gerais*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Lora', serif;
+*/
+/* configurações gerais */
 *{
-    margin: 0;
-    padding: 0;
-    font-family: Montserrt;
-}
-:root{
-    --bg-body: #F2F2F2 ;
-    --bg-box: #FFFFFF;
-    --blue: #2F80ED;
-    --gray: #828282;
-}
-body{
-    background-color: var(--bg-body);
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
+    color: var(--link-color);
 }
-ul{
-    list-style: none;
+/* Configurações de cores */
+:root{
+    --azul: #476C9B;
+    --azul-claro: #ADD9F4;
+
+    --link-color: #6369D1;
+
+    --preto: #101419;
+    --branco: #FBFBFB;
 }
-/* barra de rolagem customizada */
-::-webkit-scrollbar {
-    width: 10px;
+body{
+    text-align: center;
+    font-family: 'Lora', serif;
+    background-color: var(--branco);
+    color: var(--preto);
 }
-::-webkit-scrollbar-track {
-    background: white;
+/* configurações do cabeçalho e navegação superior */
+header{
+    position: fixed;
+    background-color: var(--preto);
+    width: 100vw;
+    height: 10vh;
+    padding: 20px;
 }
-::-webkit-scrollbar-thumb {
-    background: #2768be;
+header  a{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 20px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--branco);
 }
-::-webkit-scrollbar-thumb:hover {
-    background: #1d4d8b;
+header  a:hover{
+    border-bottom: 1px solid white;
 }
-/* configurações do container main */
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* configurações gerais das seções */
 main{
     display: flex;
-}
-/* configurações das colunas do projeto */
-.coluna-esquerda{
-    width: 30vw;
-}
-.coluna-direita{
-    width: 70vw;
-}
-/* colunas */
-.coluna-direita > section, .coluna-esquerda > section{
-    margin: 15px;
-    padding: 10px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    font-size: 0.8em;
-}
-.coluna-esquerda > section{
-    background-color: var(--bg-box);
-}
-.coluna-direita > section{
-    background-color: var(--bg-body);
-}
-/* informações de contato*/
-section#informacoes-contato{
-    display: flex;
+    align-items: center;
     flex-direction: column;
 }
-section#informacoes-contato img{
-    border-radius: 10px;
-    margin-bottom: 10px;
+section#sobre, section#skills{
+    height: 100vh;
+    width: 80vw;
+    padding-top: 15vh;
 }
-section#informacoes-contato .nome{
-    font-size: 1.6em;
-    font-weight: bolder;
-    margin-bottom: 5px;
-}
-section#informacoes-contato .funcao{
-    color: var(--gray);
-    font-size: 1.1em;
-    margin-bottom: 10px;
-}
-section#informacoes-contato nav > a{
-    color: var(--blue);
-    font-weight: bold;
+section#projetos{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    width: 80vw;
     display: flex;
-    align-items: center;
-}
-section#informacoes-contato nav a span{
-    margin-right: 5px;
-}
-section#informacoes-contato p{
-    width: 80%;
-    color: var(--gray);
-    margin: 10px 0;
+    flex-direction: column;
 }
 
-/* habilidades e cursos */
-section#habilidade-cursos h2{
-    border-bottom: 1px solid var(--gray);
-    padding: 5px 0;
-}
-section#habilidade-cursos #habilidades, section#habilidade-cursos #cursos{
-    margin: 10px 0;
-    height: 25vh;
-    overflow-y: scroll;
-    padding: 5px;
-}
-section#habilidade-cursos #habilidades h3, section#habilidade-cursos #cursos h3{
-    font-weight: bold;
-    margin: 5px 0;
-    font-weight: bolder;
-    font-size: 1.4em;
-    background-color: var(--blue);
-    color: white;
-    padding: 5px 0;
-    text-align: center;
-}
-section#habilidade-cursos #habilidades ul li{
-    font-weight: bold;
-    line-height: 1.5em;
-}
-section#habilidade-cursos #cursos .caixa-crusos p{
-    text-align: justify;
-    margin: 5px 0;
-}
-section#habilidade-cursos #cursos .caixa-cursos a:visited{
-    color: rgb(218, 7, 7);
-}
-section#habilidade-cursos #cursos .caixa-cursos nav{
-    margin: 5px 0;
-}
-section#habilidade-cursos #cursos .caixa-cursos nav > a{
-    display: block;
-    padding: 5px 0;
-    font-weight: bold;
-}
-/* filtros */
-section#projetos div{
-    background-color: var(--bg-box);
-    padding: 10px;
+/* configurações da guia section sobre */
+section#sobre img{
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-section#projetos #filtro{
-    display: flex;
-}
-section#projetos #filtro > span{
-    background-color: var(--blue);
-    color: white;
-    padding: 10px;
-    margin-right: 10px;
-    border-radius: 10px;
+section#sobre a:hover{
+    color: var(--preto);
     font-weight: bold;
-    cursor: pointer;
 }
-/* caixa dos projetos */
-section#projetos h2{
-    margin: 10px 0;
-    padding: 0 10px;
+.nome{
+    font-size: 30px;
 }
-section#projetos .projetos{
-    padding: 10px;
+.funcao{
+    font-size: 20px;
+    text-transform: uppercase;
+}  
+.redes-sociais{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    background-color: var(--bg-body);
-}
-section#projetos .projetos > .caixa-projetos{
-    width: 43%;
-    display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
-    margin: 10px;
-    box-shadow: -5px 4px 1px #82828275;
 }
-section#projetos .projetos > .caixa-projetos > img{
-    border-radius: 10px;
-    margin-bottom: 5px;
+.redes-sociais a{
+    margin: 5px 0px;
 }
-section#projetos .projetos > .caixa-projetos > .informacoes-projeto > h4{
-    font-weight: bold;
-    margin: 5px 0;
-    font-weight: bolder;
-    font-size: 1.4em;
-    background-color: var(--blue);
-    color: white;
-    padding: 5px 0;
-    text-align: center;
+section#sobre p{
+    margin: 10px 0px;
+    font-size: 18px;
 }
-section#projetos .projetos > .caixa-projetos > .informacoes-projeto > .tags{
-    font-weight: bold;
+
+/* configurações da guia section skills*/
+
+section#skills > div{
     display: flex;
-    flex-wrap: wrap;
-}
-section#projetos .projetos > .caixa-projetos > .informacoes-projeto > .tags > span{
-    margin-right: 5px;
-    text-transform: capitalize;
-}
-section#projetos .projetos > .caixa-projetos > .informacoes-projeto > .tags > span::before{
-    content: "#";
-}
-section#projetos .projetos > .caixa-projetos > .informacoes-projeto > p{
-    text-align: justify;
-    color: var(--gray);
-}
-section#projetos .projetos > .caixa-projetos > .informacoes-projeto > nav{
-    display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-section#projetos .projetos > .caixa-projetos > .informacoes-projeto > nav > a{
+section#skills p, section#skills div span{
+    font-size: 18px;
+}
+section#skills p{
+    width: 80%;
+    margin: 20px 0px;
+    
+}
+.detalhes-habilidades > div{
+    padding: 5px 0px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+
+/* configurações da guia section projetos*/
+.container-projetos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.projetos{
+    width: 33%;
+    margin: 10px 0px;
     padding: 10px;
-    margin: 10px 15px 0 0;
     border-radius: 10px;
-    background-color: var(--blue);
-    color: white;
+}
+.projetos > div > nav{
+    margin-top: 10px;
+}
+.projetos > div > nav > a{
     border: 1px solid white;
-    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: var(--link-color);
+    color: white;
+    margin-right: 5px;
 }
-section#projetos .projetos > .caixa-projetos > .informacoes-projeto > nav > a:hover{
-    color:var(--blue);
+.projetos > div > nav > a:hover{
     background-color: white;
-    border: 1px solid var(--blue);
+    color: var(--link-color);
+    border: 1px solid var(--link-color);
 }
-/* rodapé */
+.nav-projetos{
+    width: 100%;
+    margin: 20px 0px;
+    color: var(--link-color);
+    margin-bottom: 50px;
+}
+.nav-projetos > div > a{
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: var(--link-color);
+    color: white;
+    margin-right: 5px;
+}
+.nav-projetos > div > a:hover{
+    background-color: white;
+    color: var(--link-color);
+    border: 1px solid var(--link-color);
+    cursor: pointer;
+}
 footer{
-    width: 100vw;
-    position: fixed;
-    bottom: 0;
     text-align: center;
+    height: 5vh;
 }

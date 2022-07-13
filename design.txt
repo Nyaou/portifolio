@@ -1,0 +1,15 @@
+Ubuntu para títulos e Lora para textos
+
+cores para ser usadas:
+
+#BCABAE - não sei ainda como vou usar essas cor
+
+#0F0F0F - preto para plano de fundo
+
+#2D2E2E - cinza que também pode ser usado para plano de fundo
+
+#716969 - cinza usada pra dar um destaque a alguns elementos na página
+
+#FBFBFB - branco usada nos textos
+
+

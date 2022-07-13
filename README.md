@@ -1,3 +1,14 @@
-# portifolio
+# Webdev Udemy
 
-em desenvolvimento: https://nyaou.github.io/portifolio/index.html
+[]() => links
+
+# => titulos
+
+![]() => img
+
+*negrito*
+
+**italico**
+
+- titulos
+    - subtitulos

@@ -1,0 +1,87 @@
+Webdev Udemy.
+
+#AnnaBella:
+link - https://nyaou.github.io/webdev-udemy/ProjetoCss-AnnaBella
+code - https://github.com/Nyaou/webdev-udemy/tree/main/ProjetoCss-AnnaBella
+
+#ChaleHotel:
+link - https://nyaou.github.io/webdev-udemy/ProjetoCss-ChaleHotel
+code - https://github.com/Nyaou/webdev-udemy/tree/main/ProjetoCss-ChaleHotel
+
+#MuseuNacional:
+link - https://nyaou.github.io/webdev-udemy/ProjetoCss-MuseuNacional
+code - https://github.com/Nyaou/webdev-udemy/tree/main/ProjetoCss-MuseuNacional
+
+#NoticiasCidade:
+link - https://nyaou.github.io/webdev-udemy/ProjetoCss-NoticiasCidade
+code - https://github.com/Nyaou/webdev-udemy/tree/main/ProjetoCss-NoticiasCidade
+
+#Paralax:
+link - https://nyaou.github.io/webdev-udemy/ProjetosCss-Paralax
+code - https://github.com/Nyaou/webdev-udemy/tree/main/ProjetoCss-Paralax
+
+#TecBlog;
+link - https://nyaou.github.io/webdev-udemy/ProjetoCss-TecBlog
+code - https://github.com/Nyaou/webdev-udemy/tree/main/ProjetoCss-TecBlog
+
+#Unes:
+link - https://nyaou.github.io/webdev-udemy/ProjetoHtml-Unes
+code - https://github.com/Nyaou/webdev-udemy/tree/main/ProjetoHtml-Unes
+
+#GameMataMosquito:
+link - https://nyaou.github.io/webdev-udemy/javascript/gameMataMosquito
+code - https://github.com/Nyaou/webdev-udemy/tree/main/javascript/gameMataMosquito
+
+
+Devchallegens.
+
+#404 not found
+link - https://nyaou.github.io/devchallenger/404-not-found-master
+code - https://github.com/Nyaou/devchallenger/tree/main/404-not-found-master
+
+#checkout page
+link - https://nyaou.github.io/devchallenger/checkout-page-master
+code - https://github.com/Nyaou/devchallenger/tree/main/checkout-page-master
+
+#edie homepage
+link - https://nyaou.github.io/devchallenger/edie-homepage-master
+code - https://github.com/Nyaou/devchallenger/tree/main/edie-homepage-master
+
+#interior consultant
+link - https://nyaou.github.io/devchallenger/interior-consultant-master
+code - https://github.com/Nyaou/devchallenger/tree/main/interior-consultant-master
+
+#my gallery
+link - https://nyaou.github.io/devchallenger/my-gallery-master
+code - https://github.com/Nyaou/devchallenger/tree/main/my-gallery-master
+
+#recipe page
+link - https://nyaou.github.io/devchallenger/recipe-page-master
+code - https://github.com/Nyaou/devchallenger/tree/main/recipe-page-master
+
+Frontend Mentor
+
+#3 column preview card
+link - https://nyaou.github.io/frontend-mentor/3-column-preview-card-component-main
+code - https://github.com/Nyaou/frontend-mentor/tree/main/3-column-preview-card-component-main
+
+#hunddle landing page
+link - https://nyaou.github.io/frontend-mentor/huddle-landing-page-with-single-introductory-section-master
+code - https://github.com/Nyaou/frontend-mentor/tree/main/huddle-landing-page-with-single-introductory-section-master
+
+#interactive component
+link - https://nyaou.github.io/frontend-mentor/interactive-rating-component-main
+code - https://github.com/Nyaou/frontend-mentor/tree/main/intro-component-with-signup-form-master
+
+#intro component
+link - https://nyaou.github.io/frontend-mentor/intro-component-with-signup-form-master
+code - https://github.com/Nyaou/frontend-mentor/tree/main/intro-component-with-signup-form-master
+
+#nft preview card
+link - https://nyaou.github.io/frontend-mentor/nft-preview-card-component-main/nft-preview-card-component-main
+code - https://github.com/Nyaou/frontend-mentor/tree/main/nft-preview-card-component-main/nft-preview-card-component-main
+
+#sunnyside agency
+link - https://nyaou.github.io/frontend-mentor/sunnyside-agency-landing-page-main
+code - https://github.com/Nyaou/frontend-mentor/tree/main/sunnyside-agency-landing-page-main
+
