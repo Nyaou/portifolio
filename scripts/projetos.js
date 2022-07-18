@@ -150,8 +150,8 @@ const cursoUdemy = [
     {
         imgUrl: 'img/udemy/paralax.png',
         titulo: 'Paralax',
-        descricao:'esse é mais uma atividade para o uso do efeito Paralax',
-        link_demo:'https://nyaou.github.io/webdev-udemy/ProjetosCss-Paralax',
+        descricao:'é um efeito usado para deixar imagens fixas na página',
+        link_demo:'https://nyaou.github.io/webdev-udemy/ProjetoCss-Paralax',
         link_code:'https://github.com/Nyaou/webdev-udemy/tree/main/ProjetoCss-Paralax',
         id:'PCU'
     },
