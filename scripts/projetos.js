@@ -199,7 +199,7 @@ const cursoUdemy = [
         imgUrl: 'img/udemy/despesas.png',
         titulo: 'App de Despesas',
         descricao:'é um projeto feito com o es6 e o javascript com orientação a objetos, além do uso do rescurso localstorage para armazenar os dados de despesas.',
-        link_demo:'https://nyaou.github.io/webdev-udemy/es6/AppDespesas',
+        link_demo:'https://nyaou.github.io/webdev-udemy/es6/appDespesas',
         link_code:'https://github.com/Nyaou/webdev-udemy/tree/main/es6/appDespesas',
         id:'PCU'
     }
