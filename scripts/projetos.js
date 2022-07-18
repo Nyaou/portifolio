@@ -66,7 +66,7 @@ const frontendMentor = [
     {
         imgUrl: 'img/frontendmentor/3-columns-preview.png',
         titulo: '3 Column Preview Card',
-        descricao:'é um projeto responsivo com alguns elementos de formulário para marcar oque está feito na receita',
+        descricao:'e um projetos simples com 3 cards separados por colunas e responsivo',
         link_demo:'https://nyaou.github.io/frontend-mentor/3-column-preview-card-component-main',
         link_code:'https://github.com/Nyaou/frontend-mentor/tree/main/3-column-preview-card-component-main',
         id:'PFM'
@@ -74,7 +74,7 @@ const frontendMentor = [
     {
         imgUrl: 'img/frontendmentor/hundle.png',
         titulo: 'Hunddle Landing Page',
-        descricao:'é um projeto responsivo com alguns elementos de formulário para marcar oque está feito na receita',
+        descricao:'é uma página um responsiva',
         link_demo:'https://nyaou.github.io/frontend-mentor/huddle-landing-page-with-single-introductory-section-master',
         link_code:'https://github.com/Nyaou/frontend-mentor/tree/main/huddle-landing-page-with-single-introductory-section-master',
         id:'PFM'
@@ -82,7 +82,7 @@ const frontendMentor = [
     {
         imgUrl: 'img/frontendmentor/intereactive-component.png',
         titulo: 'Interactive Component',
-        descricao:'é um projeto responsivo com alguns elementos de formulário para marcar oque está feito na receita',
+        descricao:'é um projeto simples com interatividade e responsividade',
         link_demo:'https://nyaou.github.io/frontend-mentor/interactive-rating-component-main',
         link_code:'https://github.com/Nyaou/frontend-mentor/tree/main/intro-component-with-signup-form-master',
         id:'PFM'
@@ -90,7 +90,7 @@ const frontendMentor = [
     {
         imgUrl: 'img/frontendmentor/intro-component.png',
         titulo: 'Intro Component',
-        descricao:'é um projeto responsivo com alguns elementos de formulário para marcar oque está feito na receita',
+        descricao:'é um projeto simples com valicação de formúlario',
         link_demo:'https://nyaou.github.io/frontend-mentor/intro-component-with-signup-form-master',
         link_code:'https://github.com/Nyaou/frontend-mentor/tree/main/intro-component-with-signup-form-master',
         id:'PFM'
@@ -98,7 +98,7 @@ const frontendMentor = [
     {
         imgUrl: 'img/frontendmentor/nft-preview.png',
         titulo: 'NFT Preview Card',
-        descricao:'é um projeto responsivo com alguns elementos de formulário para marcar oque está feito na receita',
+        descricao:'é um projeto simples com uma previa de um card e responsivo',
         link_demo:'https://nyaou.github.io/frontend-mentor/nft-preview-card-component-main/nft-preview-card-component-main',
         link_code:'https://github.com/Nyaou/frontend-mentor/tree/main/nft-preview-card-component-main/nft-preview-card-component-main',
         id:'PFM'
@@ -106,7 +106,7 @@ const frontendMentor = [
     {
         imgUrl: 'img/frontendmentor/sunnyside.png',
         titulo: 'Sunnyside Agency',
-        descricao:'é um projeto responsivo com alguns elementos de formulário para marcar oque está feito na receita',
+        descricao:'é um projeto melhor trabalhado com layout um pouco mais completo e galeria de imagens',
         link_demo:'https://nyaou.github.io/frontend-mentor/sunnyside-agency-landing-page-main',
         link_code:'https://github.com/Nyaou/frontend-mentor/tree/main/sunnyside-agency-landing-page-main',
         id:'PFM'
