@@ -178,5 +178,29 @@ const cursoUdemy = [
         link_demo:'https://nyaou.github.io/webdev-udemy/javascript/gameMataMosquito',
         link_code:'https://github.com/Nyaou/webdev-udemy/tree/main/javascript/gameMataMosquito',
         id:'PCU'
+    },
+    {
+        imgUrl: 'img/udemy/calculadora.png',
+        titulo: 'Calculadora',
+        descricao:'é um projeto feito no módulo de Javascript. Ele tem todas as funções de calculadora básica.',
+        link_demo:'https://nyaou.github.io/webdev-udemy/javascript/calculadora',
+        link_code:'https://github.com/Nyaou/webdev-udemy/tree/main/javascript/calculadora',
+        id:'PCU'
+    },
+    {
+        imgUrl: 'img/udemy/finans.png',
+        titulo: 'Finnas',
+        descricao:'é um projeto feito com o framework bootstrap 4.',
+        link_demo:'https://nyaou.github.io/webdev-udemy/bootstrap/Projeto-Finnas',
+        link_code:'https://github.com/Nyaou/webdev-udemy/tree/main/bootstrap/Projeto-Finnans',
+        id:'PCU'
+    },
+    {
+        imgUrl: 'img/udemy/despesas.png',
+        titulo: 'App de Despesas',
+        descricao:'é um projeto feito com o es6 e o javascript com orientação a objetos, além do uso do rescurso localstorage para armazenar os dados de despesas.',
+        link_demo:'https://nyaou.github.io/webdev-udemy/es6/AppDespesas',
+        link_code:'https://github.com/Nyaou/webdev-udemy/tree/main/es6/appDespesas',
+        id:'PCU'
     }
 ]
